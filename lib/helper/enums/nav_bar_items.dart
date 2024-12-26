@@ -1,0 +1,1 @@
+enum NavbarItems { DASHBOARD, WATCH, MEDIA_LIBRARY, MORE }

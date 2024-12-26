@@ -1,0 +1,66 @@
+
+import 'package:flutter/material.dart';
+
+import '../constants/dimension_resources.dart';
+
+TextTheme textTheme = const TextTheme(
+    displayLarge: TextStyle(
+        fontSize: Dim.FONT_SIZE_4X_EXTRA_LARGE,
+        fontWeight: FontWeight.w700,
+        letterSpacing: -0.30),
+    displayMedium: TextStyle(
+        fontSize: Dim.FONT_SIZE_3X_EXTRA_LARGE,
+        fontWeight: FontWeight.w500,
+        letterSpacing: -0.30),
+    displaySmall: TextStyle(
+        fontSize: Dim.FONT_SIZE_2X_EXTRA_LARGE,
+        fontWeight: FontWeight.w300,
+        letterSpacing: -0.30),
+    headlineLarge: TextStyle(
+        fontSize: Dim.FONT_SIZE_1X_EXTRA_LARGE,
+        fontWeight: FontWeight.w700,
+        letterSpacing: -0.30),
+    headlineMedium: TextStyle(
+        fontSize: Dim.FONT_SIZE_LARGE,
+        fontWeight: FontWeight.w500,
+        letterSpacing: -0.30),
+    headlineSmall: TextStyle(
+        fontSize: Dim.FONT_SIZE_4X_EXTRA_MEDIUM,
+        fontWeight: FontWeight.w300,
+        letterSpacing: -0.30),
+    titleLarge: TextStyle(
+        fontSize: Dim.FONT_SIZE_3X_EXTRA_MEDIUM,
+        fontWeight: FontWeight.w700,
+        letterSpacing: -0.30),
+    titleMedium: TextStyle(
+        fontSize: Dim.FONT_SIZE_2X_EXTRA_MEDIUM,
+        fontWeight: FontWeight.w500,
+        letterSpacing: -0.30),
+    titleSmall: TextStyle(
+        fontSize: Dim.FONT_SIZE_1X_EXTRA_MEDIUM,
+        fontWeight: FontWeight.w300,
+        letterSpacing: -0.30),
+    labelLarge: TextStyle(
+        fontSize: Dim.FONT_SIZE_MEDIUM,
+        fontWeight: FontWeight.w700,
+        letterSpacing: -0.30),
+    labelMedium: TextStyle(
+        fontSize: Dim.FONT_SIZE_SMALL,
+        fontWeight: FontWeight.w500,
+        letterSpacing: -0.30),
+    labelSmall: TextStyle(
+        fontSize: Dim.FONT_SIZE_1X_EXTRA_SMALL,
+        fontWeight: FontWeight.w300,
+        letterSpacing: -0.30),
+    bodyLarge: TextStyle(
+        fontSize: Dim.FONT_SIZE_2X_EXTRA_SMALL,
+        fontWeight: FontWeight.w700,
+        letterSpacing: -0.30),
+    bodyMedium: TextStyle(
+        fontSize: Dim.FONT_SIZE_3X_EXTRA_SMALL,
+        fontWeight: FontWeight.w500,
+        letterSpacing: -0.30),
+    bodySmall: TextStyle(
+        fontSize: Dim.FONT_SIZE_4X_EXTRA_SMALL,
+        fontWeight: FontWeight.w300,
+        letterSpacing: -0.30));
